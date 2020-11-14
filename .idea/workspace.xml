@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1775e2d-125b-4a92-beda-628cc1627175" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/models/Product.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/Product.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/details/components/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/color_and_size.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/details/components/color_and_deposit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/product_title_with_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/details/components/product_title_with_image.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/components/body.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,33 +54,49 @@
       <option name="presentableId" value="Default" />
       <updated>1605393194190</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated so it shows initial deposit.">
+      <created>1605394178672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605394178672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated so it shows initial deposit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated so it shows initial deposit." />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="298" key="GridCell.Tab.0.bottom" timestamp="1605394009190">
+    <state x="452" y="61" key="CommitChangelistDialog2" timestamp="1605394178472">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="452" y="61" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394178472" />
+    <state width="1750" height="298" key="GridCell.Tab.0.bottom" timestamp="1605394550819">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848029" />
     <state width="699" height="207" key="GridCell.Tab.0.bottom/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689891" />
-    <state width="1750" height="298" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394009190" />
-    <state width="1750" height="298" key="GridCell.Tab.0.center" timestamp="1605394009189">
+    <state width="1750" height="298" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394550819" />
+    <state width="1750" height="298" key="GridCell.Tab.0.center" timestamp="1605394550818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.center/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848028" />
     <state width="699" height="207" key="GridCell.Tab.0.center/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689888" />
-    <state width="1750" height="298" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394009189" />
-    <state width="1750" height="298" key="GridCell.Tab.0.left" timestamp="1605394009189">
+    <state width="1750" height="298" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394550818" />
+    <state width="1750" height="298" key="GridCell.Tab.0.left" timestamp="1605394550818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.left/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848027" />
     <state width="699" height="207" key="GridCell.Tab.0.left/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689887" />
-    <state width="1750" height="298" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394009189" />
-    <state width="1750" height="298" key="GridCell.Tab.0.right" timestamp="1605394009190">
+    <state width="1750" height="298" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394550818" />
+    <state width="1750" height="298" key="GridCell.Tab.0.right" timestamp="1605394550818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.right/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848029" />
     <state width="699" height="207" key="GridCell.Tab.0.right/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689889" />
-    <state width="1750" height="298" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394009190" />
+    <state width="1750" height="298" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394550818" />
     <state x="144" y="91" key="MergeDialog" timestamp="1605385727344">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -93,6 +105,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="430" y="153" key="MultipleFileMergeDialog/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385727396" />
+    <state x="496" y="307" key="Vcs.Push.Dialog.v2" timestamp="1605394194736">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="307" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605394194736" />
     <state x="500" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605385713784">
       <screen x="0" y="23" width="1440" height="822" />
     </state>

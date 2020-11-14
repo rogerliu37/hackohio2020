@@ -36,9 +36,9 @@ class ColorAndSize extends StatelessWidget {
             text: TextSpan(
               style: TextStyle(color: kTextColor),
               children: [
-                TextSpan(text: "Size\n"),
+                TextSpan(text: "Initial Deposit\n"),
                 TextSpan(
-                  text: "${product.size} cm",
+                  text: "\$${product.deposit}",
                   style: Theme.of(context)
                       .textTheme
                       .headline5

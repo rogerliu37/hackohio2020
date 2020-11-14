@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77807f4f-e85a-4f21-8853-a847c2baf92d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/categorries.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/components/categorries.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/add_to_cart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/details/components/add_to_cart.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -49,9 +49,25 @@
       <option name="presentableId" value="Default" />
       <updated>1605372895518</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated categories.dart file.">
+      <created>1605383625097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605383625097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated categories.dart file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated categories.dart file." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="454" y="61" key="CommitChangelistDialog2" timestamp="1605383624900">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="454" y="61" key="CommitChangelistDialog2/1792.23.1048.747/0.23.1792.1097@0.23.1792.1097" timestamp="1605383624900" />
     <state x="748" y="479" key="Github.ShareDialog" timestamp="1605372928990">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -76,5 +92,13 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="298" key="GridCell.Tab.0.right/1792.23.1048.747/0.23.1792.1097@0.23.1792.1097" timestamp="1605383236145" />
+    <state x="397" y="210" key="SettingsEditor" timestamp="1605383871688">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="210" key="SettingsEditor/1792.23.1048.747/0.23.1792.1097@0.23.1792.1097" timestamp="1605383871688" />
+    <state x="496" y="307" key="Vcs.Push.Dialog.v2" timestamp="1605383631717">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="307" key="Vcs.Push.Dialog.v2/1792.23.1048.747/0.23.1792.1097@0.23.1792.1097" timestamp="1605383631717" />
   </component>
 </project>

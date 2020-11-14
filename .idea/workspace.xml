@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1775e2d-125b-4a92-beda-628cc1627175" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -9,5 +19,25 @@
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="144" y="91" key="MergeDialog" timestamp="1605385727344">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="144" y="91" key="MergeDialog/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385727344" />
+    <state x="430" y="153" key="MultipleFileMergeDialog" timestamp="1605385727396">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="430" y="153" key="MultipleFileMergeDialog/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385727396" />
+    <state x="500" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605385713784">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="500" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385713784" />
   </component>
 </project>

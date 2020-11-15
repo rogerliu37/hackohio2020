@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/models/Product.dart';
 
 import '../../../constants.dart';
 
 class CartCounter extends StatefulWidget {
+  CartCounter({Key key}) : super(key: key);
   @override
-  _CartCounterState createState() => _CartCounterState();
+  _CartCounterState createState() => _CartCounterState(key);
 }
 
 class _CartCounterState extends State<CartCounter> {
+  Product product;
+  _CartCounterState(key);
   int numOfItems = 1;
   @override
   Widget build(BuildContext context) {

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f13816-17aa-4ef1-a474-1df654468c23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hackohio2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hackohio2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/tabs/profileTab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/tabs/profileTab.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,19 +16,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1kJEZSwQujpJJbbQD8Sw6lWQqCi" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -49,49 +39,47 @@
       <option name="project" value="LOCAL" />
       <updated>1605398394637</updated>
     </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f5f13816-17aa-4ef1-a474-1df654468c23" name="Default Changelist" comment="" />
-      <created>1605410350110</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1605410350110</updated>
+    <task id="LOCAL-00002" summary="Hopefully fixes dart path issue.">
+      <created>1605412954187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605412954187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I added basic functions to the Listing tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="I added basic functions to the Listing tab" />
+    <MESSAGE value="Hopefully fixes dart path issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Hopefully fixes dart path issue." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="196" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605410380657">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="196" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1048.-50.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1605410380657" />
-    <state x="403" y="7" key="CommitChangelistDialog2" timestamp="1605410057513">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="470" y="32" key="CommitChangelistDialog2" timestamp="1605412953731">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="403" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605410057513" />
-    <state width="699" height="208" key="GridCell.Tab.0.bottom" timestamp="1605410339005">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="470" y="32" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412953731" />
+    <state width="1491" height="206" key="GridCell.Tab.0.bottom" timestamp="1605414830143">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="208" key="GridCell.Tab.0.bottom/-1048.-27.1048.747/0.23.1440.821@0.23.1440.821" timestamp="1605410339005" />
-    <state width="1491" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605409985102" />
-    <state width="699" height="208" key="GridCell.Tab.0.center" timestamp="1605410339004">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1491" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605414830143" />
+    <state width="1750" height="160" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412630487" />
+    <state width="1491" height="206" key="GridCell.Tab.0.center" timestamp="1605414830142">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="208" key="GridCell.Tab.0.center/-1048.-27.1048.747/0.23.1440.821@0.23.1440.821" timestamp="1605410339004" />
-    <state width="1491" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605409985101" />
-    <state width="699" height="208" key="GridCell.Tab.0.left" timestamp="1605410339003">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1491" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605414830141" />
+    <state width="1750" height="160" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412630486" />
+    <state width="1491" height="206" key="GridCell.Tab.0.left" timestamp="1605414830140">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="208" key="GridCell.Tab.0.left/-1048.-27.1048.747/0.23.1440.821@0.23.1440.821" timestamp="1605410339003" />
-    <state width="1491" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605409985099" />
-    <state width="699" height="208" key="GridCell.Tab.0.right" timestamp="1605410339004">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1491" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605414830140" />
+    <state width="1750" height="160" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412630486" />
+    <state width="1491" height="206" key="GridCell.Tab.0.right" timestamp="1605414830143">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="208" key="GridCell.Tab.0.right/-1048.-27.1048.747/0.23.1440.821@0.23.1440.821" timestamp="1605410339004" />
-    <state width="1491" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605409985102" />
+    <state width="1491" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605414830143" />
+    <state width="1750" height="160" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412630487" />
     <state x="144" y="91" key="MergeDialog" timestamp="1605385727344">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -100,11 +88,14 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="430" y="153" key="MultipleFileMergeDialog/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385727396" />
-    <state x="221" y="72" key="SettingsEditor" timestamp="1605410735392">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="397" y="210" key="SettingsEditor" timestamp="1605412621647">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="221" y="72" key="SettingsEditor/-1048.-50.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1605410735392" />
-    <state x="221" y="89" key="SettingsEditor/-1048.-50.1048.770/0.23.1440.821@0.23.1440.821" timestamp="1605410448332" />
+    <state x="397" y="210" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412621647" />
+    <state x="496" y="307" key="Vcs.Push.Dialog.v2" timestamp="1605412959249">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="307" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1605412959249" />
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1605408867866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -113,9 +104,5 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="500" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385713784" />
-    <state x="390" y="229" key="git4idea.merge.GitPullDialog" timestamp="1605410241888">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="390" y="229" key="git4idea.merge.GitPullDialog/-1048.-27.1048.747/0.23.1440.821@0.23.1440.821" timestamp="1605410241888" />
   </component>
 </project>

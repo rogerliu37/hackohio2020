@@ -8,6 +8,7 @@ class ListingTab extends StatefulWidget {
 class _ListingTabState extends State<ListingTab> {
   final _formKey = GlobalKey<FormState>();
   List<String> promptText = List<String>();
+  DateTime _dateTime;
 
   @override
   Widget build(BuildContext context) {

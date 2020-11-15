@@ -1,5 +1,26 @@
 import 'package:flutter/material.dart';
 
+class ListingTab1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: new AppBar(
+    title: Text(
+    "Create New Listing",
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 30.0,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+    backgroundColor: Colors.blue[900],
+    ),
+      body: ListingTab(),
+    );
+  }
+}
+
+
 class ListingTab extends StatefulWidget {
   @override
   _ListingTabState createState() => _ListingTabState();
@@ -13,26 +34,15 @@ class _ListingTabState extends State<ListingTab> {
   @override
   Widget build(BuildContext context) {
     final _textController = TextEditingController();
-    promptText.add('Create New Listing: ');
+    DateTime _dateTime;
+
     return Form(
       key: _formKey,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
+
           SizedBox(height: 20.0),
-          Container(
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Container(
-                  child: Text(
-                    promptText[0],
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 22.0,
-                        fontWeight: FontWeight.bold),
-                  )),
-            ),
-          ),
           SizedBox(height: 10.0),
           Flexible(
             child: Card(
@@ -73,6 +83,53 @@ class _ListingTabState extends State<ListingTab> {
               ),
             ),
           ),
+          Flexible(
+            child: Card(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              child: TextFormField(
+                style: TextStyle(color: Colors.black),
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.attach_money),
+                  hintText: 'Price',
+                ),
+                validator: (value) {
+                  if (value.isEmpty) {
+                    return 'Cost per day?';
+                  }
+                  return null;
+                },
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 10.0,
+          ),
+          Text(
+            "When would you like your product returned by?",
+//            style: TextStyle(
+//              fontStyle:
+//            ),
+          ),
+          Column(mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              RaisedButton(
+                child: Text('Pick a date'),
+                onPressed: () {
+                  showDatePicker(
+                      context: context,
+                      initialDate: _dateTime == null ? DateTime.now() : _dateTime,
+                      firstDate: DateTime(2001),
+                      lastDate: DateTime(2021)
+                  ).then((date) {
+                    setState(() {
+                      _dateTime = date;
+                    });
+                  });
+                },
+              )
+            ],
+          ),
           SizedBox(
             height: 10.0,
           ),
@@ -82,6 +139,7 @@ class _ListingTabState extends State<ListingTab> {
 //              fontStyle:
 //            ),
           ),
+
           Padding(
             padding:
             const EdgeInsets.symmetric(vertical: 16.0, horizontal: 10.0),
@@ -97,4 +155,13 @@ class _ListingTabState extends State<ListingTab> {
     );
   }
   }
+
+//Future navigateToPageList2(context) async {
+//  Navigator.push(
+//    context,
+//    MaterialPageRoute(
+//      builder: (context) => listingTabSuccess(),
+//    ),
+//  );
+//}
 

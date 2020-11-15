@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _children = [
     new HomeTab(),
     new SearchTab(),
-    new ListingTab(),
+    new ListingTab1(),
     new ProfileTab(),
   ];
 

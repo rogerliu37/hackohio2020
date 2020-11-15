@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1775e2d-125b-4a92-beda-628cc1627175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/models/Gallery.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/tabs/profileTab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/tabs/profileTab.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +13,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Dart File" />
-      </list>
-    </option>
-  </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -42,30 +35,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="699" height="207" key="GridCell.Tab.0.bottom" timestamp="1605395568111">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="699" height="207" key="GridCell.Tab.0.bottom" timestamp="1605390689891">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848029" />
-    <state width="699" height="207" key="GridCell.Tab.0.bottom/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605393973445" />
-    <state width="699" height="207" key="GridCell.Tab.0.bottom/-1048.-50.1048.770/0.23.1440.825@0.23.1440.825" timestamp="1605395568111" />
-    <state width="699" height="207" key="GridCell.Tab.0.center" timestamp="1605395568109">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="699" height="207" key="GridCell.Tab.0.bottom/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689891" />
+    <state width="699" height="207" key="GridCell.Tab.0.center" timestamp="1605390689888">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.center/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848028" />
-    <state width="699" height="207" key="GridCell.Tab.0.center/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605393973443" />
-    <state width="699" height="207" key="GridCell.Tab.0.center/-1048.-50.1048.770/0.23.1440.825@0.23.1440.825" timestamp="1605395568109" />
-    <state width="699" height="207" key="GridCell.Tab.0.left" timestamp="1605395568109">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="699" height="207" key="GridCell.Tab.0.center/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689888" />
+    <state width="699" height="207" key="GridCell.Tab.0.left" timestamp="1605390689887">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.left/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848027" />
-    <state width="699" height="207" key="GridCell.Tab.0.left/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605393973442" />
-    <state width="699" height="207" key="GridCell.Tab.0.left/-1048.-50.1048.770/0.23.1440.825@0.23.1440.825" timestamp="1605395568109" />
-    <state width="699" height="207" key="GridCell.Tab.0.right" timestamp="1605395568110">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="699" height="207" key="GridCell.Tab.0.left/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689887" />
+    <state width="699" height="207" key="GridCell.Tab.0.right" timestamp="1605390689889">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="207" key="GridCell.Tab.0.right/-1048.-50.1048.770/0.23.1440.822@0.23.1440.822" timestamp="1605385848029" />
-    <state width="699" height="207" key="GridCell.Tab.0.right/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605393973444" />
-    <state width="699" height="207" key="GridCell.Tab.0.right/-1048.-50.1048.770/0.23.1440.825@0.23.1440.825" timestamp="1605395568110" />
+    <state width="699" height="207" key="GridCell.Tab.0.right/-1048.-50.1048.770/0.23.1440.823@0.23.1440.823" timestamp="1605390689889" />
     <state x="144" y="91" key="MergeDialog" timestamp="1605385727344">
       <screen x="0" y="23" width="1440" height="822" />
     </state>

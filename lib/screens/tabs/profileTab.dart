@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/models/Gallery.dart';
+import 'package:shop_app/models/Product.dart';
+import 'package:shop_app/screens/details/details_screen.dart';
 
 class ProfileTab extends StatefulWidget {
   @override
@@ -25,10 +27,11 @@ class _ProfileTabState extends State<ProfileTab> {
       ),
       body: Container(
         color: Colors.grey,
-        child: SafeArea(
-          child: ListView(
-            children: [
-              Column(
+        child: ListView(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
                 children: [
                   //TODO Change pictures
                   Row(
@@ -38,7 +41,8 @@ class _ProfileTabState extends State<ProfileTab> {
                         backgroundColor: Colors.white,
                         backgroundImage: AssetImage('assets/images/cat.jpg'),
                       ),
-                      Flexible(
+                      Expanded(
+                        flex: 1,
                         child: Column(
                           children: <Widget>[
                             Row(
@@ -90,7 +94,6 @@ class _ProfileTabState extends State<ProfileTab> {
                                 color: Colors.teal.shade100,
                               ),
                             ),
-                            Container(child: buildGallery())
                           ],
                         ),
                       ),
@@ -98,10 +101,185 @@ class _ProfileTabState extends State<ProfileTab> {
                   ),
                 ],
               ),
-            ],
-          ),
+            ),
+            BuildPost()
+          ],
         ),
       ),
+    );
+  }
+}
+
+class BuildPost extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: GridView.count(
+          crossAxisCount: 3,
+          childAspectRatio: 1.0,
+          mainAxisSpacing: 1.5,
+          crossAxisSpacing: 1.5,
+          shrinkWrap: true,
+          padding: const EdgeInsets.all(8),
+          children: [
+            GridTile(
+              footer: Material(
+                color: Colors.transparent,
+                shape: const RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(4)),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: GridTileBar(
+                  backgroundColor: Colors.black45,
+                  title: Text("Bag 1"),
+                ),
+              ),
+              child: InkResponse(
+                enableFeedback: true,
+                child: Image.asset("assets/images/bag_1.png"),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailsScreen(
+                        product: products[0],
+                      ),
+                    )),
+              ),
+            ),
+            GridTile(
+              footer: Material(
+                color: Colors.transparent,
+                shape: const RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(4)),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: GridTileBar(
+                  backgroundColor: Colors.black45,
+                  title: Text("Bag 2"),
+                ),
+              ),
+              child: InkResponse(
+                enableFeedback: true,
+                child: Image.asset("assets/images/bag_2.png"),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailsScreen(
+                        product: products[1],
+                      ),
+                    )),
+              ),
+            ),
+            GridTile(
+              footer: Material(
+                color: Colors.transparent,
+                shape: const RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(4)),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: GridTileBar(
+                  backgroundColor: Colors.black45,
+                  title: Text("Bag 3"),
+                ),
+              ),
+              child: InkResponse(
+                enableFeedback: true,
+                child: Image.asset("assets/images/bag_3.png"),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailsScreen(
+                        product: products[2],
+                      ),
+                    )),
+              ),
+            ),
+            GridTile(
+              footer: Material(
+                color: Colors.transparent,
+                shape: const RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(4)),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: GridTileBar(
+                  backgroundColor: Colors.black45,
+                  title: Text("Bag 4"),
+                ),
+              ),
+              child: InkResponse(
+                enableFeedback: true,
+                child: Image.asset("assets/images/bag_4.png"),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailsScreen(
+                        product: products[3],
+                      ),
+                    )),
+              ),
+            ),
+            GridTile(
+              footer: Material(
+                color: Colors.transparent,
+                shape: const RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(4)),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: GridTileBar(
+                  backgroundColor: Colors.black45,
+                  title: Text("Bag 5"),
+                ),
+              ),
+              child: InkResponse(
+                enableFeedback: true,
+                child: Image.asset("assets/images/bag_5.png"),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailsScreen(
+                        product: products[4],
+                      ),
+                    )),
+              ),
+            ),
+            GridTile(
+              footer: Material(
+                color: Colors.transparent,
+                shape: const RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(4)),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: GridTileBar(
+                  backgroundColor: Colors.black45,
+                  title: Text("Bag 6"),
+                ),
+              ),
+              child: InkResponse(
+                enableFeedback: true,
+                child: Image.asset("assets/images/bag_6.png"),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailsScreen(
+                        product: products[5],
+                      ),
+                    )),
+              ),
+            ),
+          ]
+
+//        galleryList(context).map<Widget>((gallery) {
+//          return galleryView(
+//            gallery: gallery,
+//          );
+//        }).toList(),toList
+          ),
     );
   }
 }
@@ -129,17 +307,21 @@ class _buildGalleryState extends State<buildGallery> {
   Widget build(BuildContext context) {
     return new Container(
       child: GridView.count(
-        crossAxisCount: 3,
-        mainAxisSpacing: 8,
-        crossAxisSpacing: 8,
-        padding: const EdgeInsets.all(8),
-        childAspectRatio: 1,
-        children: galleryList(context).map<Widget>((gallery) {
-          return galleryView(
-            gallery: gallery,
-          );
-        }).toList(),
-      ),
+          crossAxisCount: 3,
+          padding: const EdgeInsets.all(8),
+          childAspectRatio: 1,
+          children: [
+            Container(
+              child: Image(image: AssetImage("assets/images/bag_1.png")),
+            )
+          ]
+
+//        galleryList(context).map<Widget>((gallery) {
+//          return galleryView(
+//            gallery: gallery,
+//          );
+//        }).toList(),toList
+          ),
     );
   }
 }

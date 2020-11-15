@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/models/Product.dart';
-
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import '../../../constants.dart';
 
 class ProductTitleWithImage extends StatelessWidget {
@@ -19,15 +19,33 @@ class ProductTitleWithImage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            "Renter name: ${product.renter}",
-            style: TextStyle(color: Colors.white),
-          ),
-          Text(
             product.title,
             style: Theme.of(context)
                 .textTheme
                 .headline4
                 .copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+          ),
+          Row(
+            children: <Widget>[
+              Text(
+                "${product.renter}, ${product.milesAway} miles away    ",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              RatingBarIndicator(
+                itemPadding: EdgeInsets.all(1.0),
+                direction: Axis.horizontal,
+                rating: product.rating,
+                itemBuilder: (context, index) => Icon(
+                  Icons.star,
+                  color: Colors.amber,
+                ),
+                itemCount: 5,
+                itemSize: 18.0,
+              ),
+            ],
           ),
           SizedBox(height: kDefaultPaddin),
           Row(

@@ -26,6 +26,7 @@ class ProductTitleWithImage extends StatelessWidget {
                 .copyWith(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           Row(
+            //Hello
             children: <Widget>[
               Text(
                 "${product.renter}, ${product.milesAway} miles away    ",
